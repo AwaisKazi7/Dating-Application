@@ -1,4 +1,4 @@
-import 'package:dating_app_ubaid/common/common_colors.dart';
+import 'package:dating_app/common/common_colors.dart';
 import 'package:flutter/material.dart';
 import 'common_text_style.dart';
 import 'common_text.dart';
@@ -23,7 +23,7 @@ class CommonButton extends StatelessWidget {
     super.key,
     required this.text,
     required this.onPressed,
-    this.backgroundColor = CommonColors.greenColor,
+    this.backgroundColor = CommonColors.getstartedbt,
     this.textColor = Colors.white,
     this.margin,
     this.width= 101,

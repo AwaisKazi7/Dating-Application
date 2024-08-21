@@ -1,5 +1,6 @@
-import 'package:dating_app_ubaid/common/common_colors.dart';
 import 'package:flutter/material.dart';
+
+import 'common_colors.dart';
 
 class CommonTextform extends StatelessWidget {
   final String hintText;
@@ -71,7 +72,7 @@ class CommonTextform extends StatelessWidget {
     padding: const EdgeInsets.only(right: 8.0),
     child: ClipOval(
       child: Container(
-        color: CommonColors.greenColor,
+        color: CommonColors.primaryColor,
         child: Image.asset(suffixImage! ))),
   )
 
